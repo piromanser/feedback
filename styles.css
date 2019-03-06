@@ -313,6 +313,17 @@ h1 {
     margin-bottom: 25px;
 }
 
+.stars>.active-star {
+    background-image: url(/img/active-star.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.stars>i {
+    width: 22px;
+    height: 20px;
+}
+
 /* FOOTER */
 
 footer {
