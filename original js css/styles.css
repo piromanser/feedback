@@ -19,30 +19,6 @@ body {
     flex-direction: column;
 }
 
-/* HEADER */
-
-
-
-/* nav .container {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-}
-
-nav .container a {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 15px;
-    text-transform: uppercase;
-}
-
-nav .container a:hover {
-    color: #eae41a;
-    font-weight: 700;
-} */
-
-/* MAIN-CONTENT */
-
 .active-page {
     margin: 80px auto 0 auto;
 }
