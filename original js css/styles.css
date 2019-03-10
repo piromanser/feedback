@@ -84,6 +84,10 @@ h1 {
     text-transform: uppercase;
 }
 
+.feedback-item {
+    padding: 5px;
+} 
+
 .feedback-item-header {
     justify-content: space-between;
 }

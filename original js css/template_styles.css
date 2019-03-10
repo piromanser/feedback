@@ -33,7 +33,7 @@ header {
 }
 
 .search>input:last-of-type {
-    background-image: url(/img/Shape_2.png);
+    background-image: url(img/Shape_2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #ffffff;
@@ -153,13 +153,6 @@ header {
 .section-menu {
     background-color: #008373;
     margin-top: 33px;
-}
-
-nav {
-    /* padding: 17px 0 13px 0; */
-    /* background-color: #008373; */
-    
-    /* margin-top: 21px; */
 }
 
 .nav-menu {
@@ -370,6 +363,7 @@ footer {
     .nav-menu>li>a {
         margin-left: 30px;
     }
+
 }
 
 
@@ -425,6 +419,19 @@ footer {
     }
 }
 
+@media (max-width: 600px) {
+    .feedback-content {
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width: 730px) {
+    .search {
+        margin-bottom: 15px;
+    }
+}
+
 @media (max-width: 450px) {
     .footer-main {
         flex-wrap: nowrap;
@@ -436,12 +443,17 @@ footer {
         align-items: center;
     }
 
-    .feedback-content {
-        flex-direction: column;
-    }
 
     .header-item:not(:last-child)>a {
         font-size: 15px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .footer-column:last-of-type>a {
+        text-align: center;
     }
 }
 
